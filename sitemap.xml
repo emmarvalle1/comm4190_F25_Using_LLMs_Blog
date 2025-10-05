@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-09-21T23:51:27.004Z</lastmod>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/004_post/Beginner_Recipes.html</loc>
+    <lastmod>2025-10-05T19:06:18.471Z</lastmod>
   </url>
   <url>
     <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-09-21T23:51:27.004Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/001_post/Movie_Recommendations.html</loc>
-    <lastmod>2025-09-21T23:51:27.003Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/001_post/Daily_News.html</loc>
-    <lastmod>2025-09-21T23:51:27.003Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/005_post/History_Checker.html</loc>
-    <lastmod>2025-09-21T23:51:27.004Z</lastmod>
+    <lastmod>2025-10-05T19:06:18.472Z</lastmod>
   </url>
   <url>
     <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/000_test_post/index.html</loc>
-    <lastmod>2025-09-21T23:51:27.005Z</lastmod>
+    <lastmod>2025-10-05T19:06:18.473Z</lastmod>
   </url>
   <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/001_post/Cocktail_Recipe.html</loc>
-    <lastmod>2025-09-21T23:51:27.003Z</lastmod>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/003_post/Daily_News.html</loc>
+    <lastmod>2025-10-05T19:06:18.471Z</lastmod>
   </url>
   <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/004_post/Beginner_Recipes.html</loc>
-    <lastmod>2025-09-21T23:51:27.004Z</lastmod>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/002_post/Cocktail_Recipe.html</loc>
+    <lastmod>2025-10-05T19:06:18.471Z</lastmod>
   </url>
   <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/006_post/Book_Recommendations.html</loc>
-    <lastmod>2025-09-21T23:51:27.004Z</lastmod>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/005_post/History_Checker.html</loc>
+    <lastmod>2025-10-05T19:06:18.471Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-10-05T19:06:18.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/006_post/Movie_Recommendations.html</loc>
+    <lastmod>2025-10-05T19:06:18.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/007_post/Doctor_GPT.html</loc>
+    <lastmod>2025-10-05T19:06:18.472Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/001_post/Book_Recommendations.html</loc>
+    <lastmod>2025-10-05T19:06:18.471Z</lastmod>
   </url>
 </urlset>

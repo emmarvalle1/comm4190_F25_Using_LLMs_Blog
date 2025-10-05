@@ -2,15 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emma Valle">
-<meta name="dcterms.date" content="2025-10-18">
-<meta name="description" content="Can Chat GPT help me find a new good book to read?">
 
-<title>Testing Chat GPT Book Recommendations – Emma’s Blog</title>
+<title>doctor_gpt – Emma's Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -40,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-1713c1db1ad41a796903378fc9ac7b2b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -122,87 +154,87 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Testing Chat GPT Book Recommendations</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">LLMs</div>
-    <div class="quarto-category">Learning</div>
-  </div>
-  </div>
 
-<div>
-  <div class="description">
-    Can Chat GPT help me find a new good book to read?
-  </div>
+
+
+<div id="647de5a7-6d20-4eff-804c-74c15f59be7c" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>title: <span class="st">"How Well Can Chat GPT Ac as a Doctor?"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>description: <span class="st">"Asking GPT for treatment tips and a treatment plan for stomach bug"</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>author: <span class="st">"Emma"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>date: <span class="st">"11/01/2025"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>categories:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="op">-</span> LLMs</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="op">-</span> Learning</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="op">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Emma Valle </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 18, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
 <p><strong>Introduction</strong></p>
-<p>I am trying to broaden the types of books I read as well as get back into reading. I have consistently stuck to the same author (Colleen Hoover) and want to find more books in that vein but a different author.</p>
+<p>As someone who worrries a bit about health but sometimes wants information on little sicknesses or mishaps here and there without needing to go to the doctor, I wanted to test chat GPT’s abilities to help me recover from a stomach bug. I didn’t just want a summary of to do and to not do’s but an interactive experience where I could ask continuous quesetions building upon the knowledge I fed it.</p>
 <p><strong>Prompt</strong></p>
-<p>I need help finding book recommendations. I have read a lot of Colleen Hoover books but want to switch to a different author. I want something that is a light fun read, not to say it is has to be happy and fun, but something that gets you hooked and is a great story line. Knowing that information can you give me some recommendations</p>
-<p><strong>Response</strong></p>
-<p>Authors &amp; Books to Try</p>
-<p>Emily Henry</p>
-<p>People We Meet on Vacation — sweet friends-to-lovers setup, great dialogue, heartfelt but still fun. Wikipedia</p>
-<p>If you like her style, Beach Read is another good one. (Rom-com but with emotional depth.)</p>
-<p>Talia Hibbert</p>
-<p>Get a Life, Chloe Brown — charming, warm, good banter, strong character growth. Wikipedia</p>
-<p>Josie Silver</p>
-<p>If you want something with emotional punch but also a comforting storyline, The Two Lives of Lydia Bird is often recommended. Never Enough Novels</p>
-<p>Ali Hazelwood</p>
-<p>If you like romance with humor and modern settings, her The Love Hypothesis has gotten lots of praise. Khristina Chess</p>
-<p>Ana Huang, Lucy Score, Meghan Quinn</p>
-<p>These are more spicy, more heat, but great storytelling that some CoHo fans love. Reddit +1</p>
-<p>Kathleen Center / Kristy Woodson Harvey</p>
-<p>For heartwarming, relation-focused stories with emotional arcs. These tend to be lighter but satisfying. Facebook +1</p>
-<p>If you want, I can pull up 3-5 specific book titles right now that match exactly the tone you want (lighter, romantic, maybe funny). Do you prefer more romance/comedy vs drama/heavy emotion?</p>
-<p>You said: I prefer more drama/heavy emotion ChatGPT said:</p>
-<p>If you want books with heavier emotional stakes — stories that tug on your heart, maybe make you think, maybe make you cry — here are several suggestions. Some are very close to the feel of Colleen Hoover-ish drama, others are a bit different but still powerful.</p>
-<p>📚 Book / Author Recommendations</p>
-<p>Me Before You by Jojo Moyes</p>
-<p>Louisa is hired to care for Will Traynor, who is paralyzed after an accident. Their relationship develops in unexpected ways. It deals with themes of loss, love, autonomy, and whether life is always worth living when everything changes. Medium +3 The Guardian +3 Wikipedia +3</p>
-<p>Taylor Jenkins Reid – her works tend to have rich characters, secrets, and emotional complexity. Some picks in particular:</p>
-<p>The Seven Husbands of Evelyn Hugo — a starlet’s life, multiple marriages, secrets, what you give up for fame and love. Beyond the Bookends +2 She Reads +2</p>
-<p>One True Loves — torn between a past presumed dead and a new love; it’s about grief, identity, and choice. She Reads +1</p>
-<p>Forever, Interrupted — sudden tragedy early in a relationship and how the character copes. She Reads +1</p>
-<p>Helen Hoang</p>
-<p>The Heart Principle — it has heavier emotional content than just a romance, delves into personal trauma, expectations, how past wounds affect love. Wikipedia</p>
-<p>The Bride Test — also emotional; culture, family expectations, being vulnerable emotionally. Wikipedia</p>
-<p>Grief &amp; Realism in Relationships</p>
-<p>Nothing Burns as Bright as You by Ashley Woodfolk — lots of complicated feelings, grief, messy relationships. Epic Reads</p>
-<p>Classic &amp; Tearjerker Titles</p>
-<p>The Fault in Our Stars by John Green — you likely know this, but it hits hard. Illness, love, existential questions. TCK Publishing +1</p>
-<p>Nights in Rodanthe by Nicholas Sparks — love in difficult circumstances, sacrifice, emotional resonance. Wikipedia</p>
+<p>“I have a bit of an upset stomach and believe I have a stomach bug. What medications should I take and avoid and what should I be eating? How many saltines can I eat”</p>
+<p>Medications (over-the-counter)</p>
+<p>Bismuth subsalicylate (Pepto-Bismol, Kaopectate): Can help with both stomach upset and sometimes nausea.</p>
+<p>Oral rehydration solutions (like Pedialyte or electrolyte packets): Important if diarrhea is frequent, to avoid dehydration.</p>
+<p>What to Eat (the “BRAT” diet is commonly recommended)</p>
+<p>Bananas</p>
+<p>Rice (plain white rice)</p>
+<p>Applesauce</p>
+<p>Toast</p>
+<p>Other gentle foods: plain crackers (like saltines), oatmeal, boiled potatoes, or plain chicken. Avoid greasy, spicy, high-fat, or very sugary foods until you feel better.</p>
+<p>About Saltines</p>
+<p>Yes, you can eat saltines. A whole pack might be a bit much at once—sometimes too much starch/salt can make you feel more bloated or uncomfortable. It’s better to eat a few at a time throughout the day, with fluids, instead of all at once.</p>
+<p>Fluids</p>
+<p>Sip water, diluted juice, or electrolyte drinks slowly.</p>
+<p>Avoid alcohol, caffeine, and very sugary drinks (can worsen diarrhea).</p>
+<p>Do you want me to also give you a sample “what to eat today” plan that’s easy on your stomach?</p>
+<p>🌅 Morning</p>
+<p>Breakfast:</p>
+<p>A slice or two of plain toast (dry or with just a little bit of jam or honey).</p>
+<p>A banana (easy to digest, provides potassium).</p>
+<p>Sip warm water or weak tea (like chamomile or peppermint).</p>
+<p>☀️ Midday</p>
+<p>Lunch:</p>
+<p>Plain white rice or oatmeal cooked with water.</p>
+<p>Optional: a little bit of plain applesauce.</p>
+<p>Drink water or electrolyte solution slowly.</p>
+<p>🌇 Afternoon Snack</p>
+<p>A few saltine crackers (not the whole pack at once, but you can spread them out through the day).</p>
+<p>Small sips of ginger ale (flat, without bubbles) or herbal tea if nausea is present.</p>
+<p>🌙 Evening</p>
+<p>Dinner:</p>
+<p>Boiled or baked skinless chicken (very small portion, plain).</p>
+<p>Boiled potatoes (no butter/cream, just plain).</p>
+<p>Steamed carrots or zucchini (soft and plain, if tolerated).</p>
+<p>Before Bed</p>
+<p>A few more crackers or toast if you feel hungry.</p>
+<p>Sip water or Pedialyte to stay hydrated overnight.</p>
+<p>⚠️ Avoid today: dairy (milk, cheese, ice cream), coffee, alcohol, spicy food, fried/greasy food, and raw vegetables.</p>
+<p>Would you like me to also make you a 2–3 day progression plan (how to move from “only bland” back to normal foods safely)?</p>
+<p>Throughout the next few days I would return to this chat, asking follow up “can I do this or that” questions, and would make sure to consult Chat GPT before consuming anything new. For example, I asked if I could eat pasta, and inserted a picture of the certain pasta I wanted to eat including the ingrediants - and this was the response.</p>
+<p>Great job checking the label — this Barilla Penne (blue box) is regular pasta made from semolina/durum wheat flour, not whole wheat. 👍</p>
+<p>You can see in the ingredients list:</p>
+<p>Semolina (wheat), durum wheat flour → this is refined white flour.</p>
+<p>If it were whole wheat, it would clearly say “whole wheat flour” and the pasta would look darker brown.</p>
+<p>So yes — this is the type that’s gentler on your stomach compared to whole wheat right now.</p>
+<p>👉 Just cook it plain, keep the portion small, and avoid heavy sauces. A little olive oil, or just eat it plain with some broth, would be easiest on your stomach.</p>
+<p>Would you like me to suggest a simple “stomach-friendly pasta recipe” you could make with this box?</p>
+<p>🌿 Stomach-Friendly Plain Pasta Recipe</p>
+<p>Ingredients</p>
+<p>1 cup Barilla penne pasta (uncooked)</p>
+<p>4 cups water</p>
+<p>½ teaspoon salt (optional, or just a pinch)</p>
+<p>1–2 teaspoons olive oil (optional, just for a little moisture)</p>
+<p>(Optional, if you’re ready for protein) a few bites of plain boiled chicken or soft scrambled egg</p>
+<p>Instructions</p>
+<p>Bring the water to a boil.</p>
+<p>Add the pasta (and salt if using). Cook until very soft (slightly longer than al dente — easier to digest).</p>
+<p>Drain and rinse lightly with warm water.</p>
+<p>Return to the pot and drizzle with a tiny bit of olive oil, or leave plain.</p>
+<p>Serve warm.</p>
 <p><strong>Conclusion</strong></p>
-<p>I was extremely happy with this response and honestly cannot believe I didn’t consult AI sooner! Most of these books I have not read but I looked them up and they seem totally up my alley! The first one suggested is the only one I have read and it is by my second favorite author, which makes me very hopeful about the rest of the suggestions. What I am going to do next is read these books and then give Chat GPT my reviews and specific thoughts to see how that will fine tune their suggestions and recommendations for me.</p>
+<p>I followed steps, recipes, and instructions like these throughout the week, solely using Chat GPT’s consultation to direct my actions, and definitely saw a result. Everything it advised me was correct and my stomach bug slowly subsided as I had Chat GPT help me reintroduce “normal” foods back into my diet. I find Chat GPT very helpful and an incredible resources for illnesses that aren’t severe or remotely health threatening. Especially when I have constant small follow up questions that aren’t necessary to consult with a doctor to ask, AI can be incredibly useful and I had a great experience, as I usually do when consulting GPT over health related issues.</p>
 
 
 
