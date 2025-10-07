@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Emma">
+<meta name="dcterms.date" content="2025-10-12">
+<meta name="description" content="Chat GPT Daily News Overview">
 
-<title>Emma’s Blog</title>
+<title>Daily News – Emma’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +71,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma’s Blog</span>
     </a>
   </div>
@@ -153,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,266 +114,78 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Emma’s Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Daily News</h1>
+                  <div>
+        <div class="description">
+          Chat GPT Daily News Overview
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Learning</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Emma </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 12, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TGVhcm5pbmc=">Learning <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(7)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><strong>Introduction</strong></p>
+<p>I am trying to be better at being up to date with current world news, but sometimes I do not have time to check every app that I frequently check every morning or throughout the day. The news outlets I typically check and have downloaded on my phone are The New York Times, The Washington Post, The Wall Street Journal, BBC News and The Guardian. I also like to check the Middle Eastern sections of these sources (where applicable) to stay informed on the relevant dynamics and events occuring in the Middle East. I am going to tell Chat GPT this information and see if they can give me a good daily overview/summary to gather key points that I would have found in those news outlets.</p>
+<p><strong>Prompt</strong></p>
+<p>I want you to give me a good overview of the daily news gathered from reputable news sources, and specifically based on the news outlets I usually check. My most frequently used are The New York Times, The Washington Post, The Wall Street Journal, BBC News and The Guardian. I also like to read and be informed on the Middle Eastern sections to see current news in Middle Eastern policy and politics. Please give me an up to date overview for my daily news intake</p>
+<p><strong>Response</strong></p>
+<p>Here’s a round-up of what’s happening now, especially in U.S./Western politics and the Middle East / regional policy. If you want, I can pull together full article summaries from NYT, WaPo, WSJ etc. too.</p>
+<p>Key U.S. / Western-Politics Stories</p>
+<p>Charlie Kirk Killing &amp; Manhunt Conservative activist Charlie Kirk was shot and killed at a university event in Utah. Law enforcement is actively searching for a suspect. Al Jazeera +2 The Independent +2</p>
+<p>Rubio to Visit Israel Amid Tensions Secretary of State Marco Rubio is set to travel to Israel shortly after an Israeli airstrike in Doha, Qatar, targeting Hamas leaders. The trip is meant to reinforce U.S. commitments to Israel’s security, discussions on hostages in Gaza, and address worries among U.S. allies about regional stability. Reuters +1</p>
+<p>U.S. Political Reactions to Israeli Airstrike in Qatar The airstrike has disturbed diplomacy. Critics in the U.S. argue it disrupted ceasefire negotiations, raised questions about American complicity or awareness, and stirred concern among Gulf states over U.S. reliability as an ally. The Washington Post +3 The Washington Post +3 The Washington Post +3</p>
+<p>Senators Accuse Israel of Ethnic Cleansing, U.S. Complicity A report by Democratic Senators — after visits to affected zones — claims that the destruction in Gaza, restrictions on humanitarian aid, and forced displacement amount to ethnic cleansing. They call on the U.S. to reconsider its military and political support. The Guardian</p>
+<p>Middle East / Regional Policy &amp; Conflict</p>
+<p>Israeli Airstrike in Qatar Israel carried out an airstrike in Doha targeting Hamas leaders who were reportedly in discussions related to a proposed ceasefire and hostage exchange. The strike killed several people, including a Qatari security officer, and injured others. The event has caused diplomatic fallout, particularly between Qatar and Israel, and raised questions about sovereignty, mediation, and negotiation. The Washington Post +4 Reuters +4 The Washington Post +4</p>
+<p>Gulf States Question U.S. Protection / Regional Security Gulf nations are increasingly uneasy about the U.S. as a guarantor of their security. The Qatar strike, especially given U.S. military presence there, has heightened concerns that Israel may act without sufficient U.S. restraint or consultation, potentially destabilizing regional alliances. The Washington Post +1</p>
+<p>Humanitarian &amp; Ceasefire Pressures There is growing pressure — domestic, regional, and international — for ceasefire negotiations in Gaza to resume. The strike in Qatar is seen by many as undermining those talks. Meanwhile, the humanitarian crisis in Gaza is worsening, with serious concerns about aid blockages. The Washington Post +2 The Guardian +2</p>
+<p>Implications &amp; What to Watch</p>
+<p>Diplomatic Fallout: The strike in Doha is likely to strain Israel’s relationship with Qatar and other Gulf states, which may feel their role as mediators is compromised. U.S. diplomacy will be tested: managing its alliances, public opinion, and responsibilities in the region.</p>
+<p>Negotiation Viability: If key actors believe that negotiation efforts can be undercut by military strikes, trust deteriorates. This might reduce incentives for Hamas or other groups to compromise—or for mediators to broker deals.</p>
+<p>U.S. Domestic Debate: The senators’ report and the concerns about U.S. foreign policy (whether in supporting Israel or in managing diplomatic fallout) signal possible shifts in how Congress and the public view the U.S.’s role in the Gaza conflict.</p>
+<p>Regional Security Realignments: Gulf states may reconsider their security strategies if they feel exposed. Potential outcomes include deeper regional cooperation independent of the U.S., or more hedging.</p>
+<p><strong>Conclusion</strong></p>
+<p>Based on my general knowledge of current news and a brief look through some of the outlets mentioned above, Chat GPT seems to have captured a lot of the main and most important events. In my opinion, this is a pretty great overview and very helpful to stay informed especially without enough time to properly read through articles and news outlets.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1761955200000" data-listing-file-modified-sort="1759875795555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="794">
-<div class="thumbnail"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">How Well Can Chat GPT Ac as a Doctor?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<p>Asking GPT for treatment tips and a treatment plan for stomach bug</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
-<div class="thumbnail"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">Testing Chat GPT Book Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<p>Can Chat GPT help me find a new good book to read?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="595">
-<div class="thumbnail"><a href="./posts/005_post/History_Checker.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/005_post/History_Checker.html" class="no-external">GPT &amp; History</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/005_post/History_Checker.html" class="no-external">
-<p>GPT Trustworthiness on Recounting History</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/005_post/History_Checker.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="887">
-<div class="thumbnail"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">Beginner Recipes</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<p>Chat GPT Recipe Abilities</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="790">
-<div class="thumbnail"><a href="./posts/003_post/Daily_News.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_post/Daily_News.html" class="no-external">Daily News</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/003_post/Daily_News.html" class="no-external">
-<p>Chat GPT Daily News Overview</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/003_post/Daily_News.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1204">
-<div class="thumbnail"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">Movie Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<p>How Chat GPT Can Cater Movie Recommentations</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760140800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<div class="thumbnail"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">Cocktail Recipe</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<p>Can Chat GPT Come Up With a Unique Dinner Party Cocktaiil</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<div class="listing-date">
-Oct 11, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

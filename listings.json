@@ -1,6 +1,14 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/007_post/Doctor_GPT.html",
+      "/posts/001_post/Book_Recommendations.html",
+      "/posts/005_post/History_Checker.html",
+      "/posts/004_post/Beginner_Recipes.html",
+      "/posts/003_post/Daily_News.html",
+      "/posts/006_post/Movie_Recommendations.html",
+      "/posts/002_post/Cocktail_Recipe.html"
+    ]
   }
 ]

@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Emma">
+<meta name="dcterms.date" content="2025-11-01">
+<meta name="description" content="Asking GPT for treatment tips and a treatment plan for stomach bug">
 
-<title>Emma’s Blog</title>
+<title>How Well Can Chat GPT Ac as a Doctor? – Emma’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +71,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma’s Blog</span>
     </a>
   </div>
@@ -153,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,266 +114,121 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Emma’s Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">How Well Can Chat GPT Ac as a Doctor?</h1>
+                  <div>
+        <div class="description">
+          Asking GPT for treatment tips and a treatment plan for stomach bug
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Learning</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Emma </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 1, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TGVhcm5pbmc=">Learning <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(7)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><strong>Introduction</strong></p>
+<p>As someone who worrries a bit about health but sometimes wants information on little sicknesses or mishaps here and there without needing to go to the doctor, I wanted to test chat GPT’s abilities to help me recover from a stomach bug. I didn’t just want a summary of to do and to not do’s but an interactive experience where I could ask continuous quesetions building upon the knowledge I fed it.</p>
+<p><strong>Prompt</strong></p>
+<p>“I have a bit of an upset stomach and believe I have a stomach bug. What medications should I take and avoid and what should I be eating? How many saltines can I eat”</p>
+<p>Medications (over-the-counter)</p>
+<p>Bismuth subsalicylate (Pepto-Bismol, Kaopectate): Can help with both stomach upset and sometimes nausea.</p>
+<p>Oral rehydration solutions (like Pedialyte or electrolyte packets): Important if diarrhea is frequent, to avoid dehydration.</p>
+<p>What to Eat (the “BRAT” diet is commonly recommended)</p>
+<p>Bananas</p>
+<p>Rice (plain white rice)</p>
+<p>Applesauce</p>
+<p>Toast</p>
+<p>Other gentle foods: plain crackers (like saltines), oatmeal, boiled potatoes, or plain chicken. Avoid greasy, spicy, high-fat, or very sugary foods until you feel better.</p>
+<p>About Saltines</p>
+<p>Yes, you can eat saltines. A whole pack might be a bit much at once—sometimes too much starch/salt can make you feel more bloated or uncomfortable. It’s better to eat a few at a time throughout the day, with fluids, instead of all at once.</p>
+<p>Fluids</p>
+<p>Sip water, diluted juice, or electrolyte drinks slowly.</p>
+<p>Avoid alcohol, caffeine, and very sugary drinks (can worsen diarrhea).</p>
+<p>Do you want me to also give you a sample “what to eat today” plan that’s easy on your stomach?</p>
+<p>🌅 Morning</p>
+<p>Breakfast:</p>
+<p>A slice or two of plain toast (dry or with just a little bit of jam or honey).</p>
+<p>A banana (easy to digest, provides potassium).</p>
+<p>Sip warm water or weak tea (like chamomile or peppermint).</p>
+<p>☀️ Midday</p>
+<p>Lunch:</p>
+<p>Plain white rice or oatmeal cooked with water.</p>
+<p>Optional: a little bit of plain applesauce.</p>
+<p>Drink water or electrolyte solution slowly.</p>
+<p>🌇 Afternoon Snack</p>
+<p>A few saltine crackers (not the whole pack at once, but you can spread them out through the day).</p>
+<p>Small sips of ginger ale (flat, without bubbles) or herbal tea if nausea is present.</p>
+<p>🌙 Evening</p>
+<p>Dinner:</p>
+<p>Boiled or baked skinless chicken (very small portion, plain).</p>
+<p>Boiled potatoes (no butter/cream, just plain).</p>
+<p>Steamed carrots or zucchini (soft and plain, if tolerated).</p>
+<p>Before Bed</p>
+<p>A few more crackers or toast if you feel hungry.</p>
+<p>Sip water or Pedialyte to stay hydrated overnight.</p>
+<p>⚠️ Avoid today: dairy (milk, cheese, ice cream), coffee, alcohol, spicy food, fried/greasy food, and raw vegetables.</p>
+<p>Would you like me to also make you a 2–3 day progression plan (how to move from “only bland” back to normal foods safely)?</p>
+<p>Throughout the next few days I would return to this chat, asking follow up “can I do this or that” questions, and would make sure to consult Chat GPT before consuming anything new. For example, I asked if I could eat pasta, and inserted a picture of the certain pasta I wanted to eat including the ingrediants - and this was the response.</p>
+<p>Great job checking the label — this Barilla Penne (blue box) is regular pasta made from semolina/durum wheat flour, not whole wheat. 👍</p>
+<p>You can see in the ingredients list:</p>
+<p>Semolina (wheat), durum wheat flour → this is refined white flour.</p>
+<p>If it were whole wheat, it would clearly say “whole wheat flour” and the pasta would look darker brown.</p>
+<p>So yes — this is the type that’s gentler on your stomach compared to whole wheat right now.</p>
+<p>👉 Just cook it plain, keep the portion small, and avoid heavy sauces. A little olive oil, or just eat it plain with some broth, would be easiest on your stomach.</p>
+<p>Would you like me to suggest a simple “stomach-friendly pasta recipe” you could make with this box?</p>
+<p>🌿 Stomach-Friendly Plain Pasta Recipe</p>
+<p>Ingredients</p>
+<p>1 cup Barilla penne pasta (uncooked)</p>
+<p>4 cups water</p>
+<p>½ teaspoon salt (optional, or just a pinch)</p>
+<p>1–2 teaspoons olive oil (optional, just for a little moisture)</p>
+<p>(Optional, if you’re ready for protein) a few bites of plain boiled chicken or soft scrambled egg</p>
+<p>Instructions</p>
+<p>Bring the water to a boil.</p>
+<p>Add the pasta (and salt if using). Cook until very soft (slightly longer than al dente — easier to digest).</p>
+<p>Drain and rinse lightly with warm water.</p>
+<p>Return to the pot and drizzle with a tiny bit of olive oil, or leave plain.</p>
+<p>Serve warm.</p>
+<p><strong>Conclusion</strong></p>
+<p>I followed steps, recipes, and instructions like these throughout the week, solely using Chat GPT’s consultation to direct my actions, and definitely saw a result. Everything it advised me was correct and my stomach bug slowly subsided as I had Chat GPT help me reintroduce “normal” foods back into my diet. I find Chat GPT very helpful and an incredible resources for illnesses that aren’t severe or remotely health threatening. Especially when I have constant small follow up questions that aren’t necessary to consult with a doctor to ask, AI can be incredibly useful and I had a great experience, as I usually do when consulting GPT over health related issues.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1761955200000" data-listing-file-modified-sort="1759875795555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="794">
-<div class="thumbnail"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">How Well Can Chat GPT Ac as a Doctor?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<p>Asking GPT for treatment tips and a treatment plan for stomach bug</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
-<div class="thumbnail"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">Testing Chat GPT Book Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<p>Can Chat GPT help me find a new good book to read?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="595">
-<div class="thumbnail"><a href="./posts/005_post/History_Checker.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/005_post/History_Checker.html" class="no-external">GPT &amp; History</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/005_post/History_Checker.html" class="no-external">
-<p>GPT Trustworthiness on Recounting History</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/005_post/History_Checker.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="887">
-<div class="thumbnail"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">Beginner Recipes</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<p>Chat GPT Recipe Abilities</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="790">
-<div class="thumbnail"><a href="./posts/003_post/Daily_News.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_post/Daily_News.html" class="no-external">Daily News</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/003_post/Daily_News.html" class="no-external">
-<p>Chat GPT Daily News Overview</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/003_post/Daily_News.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1204">
-<div class="thumbnail"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">Movie Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<p>How Chat GPT Can Cater Movie Recommentations</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760140800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<div class="thumbnail"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">Cocktail Recipe</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<p>Can Chat GPT Come Up With a Unique Dinner Party Cocktaiil</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<div class="listing-date">
-Oct 11, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

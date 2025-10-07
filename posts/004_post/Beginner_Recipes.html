@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Emma Valle">
+<meta name="dcterms.date" content="2025-10-16">
+<meta name="description" content="Chat GPT Recipe Abilities">
 
-<title>Emma’s Blog</title>
+<title>Beginner Recipes – Emma’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +71,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma’s Blog</span>
     </a>
   </div>
@@ -153,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,266 +114,170 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Emma’s Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Beginner Recipes</h1>
+                  <div>
+        <div class="description">
+          Chat GPT Recipe Abilities
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Learning</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Emma Valle </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 16, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TGVhcm5pbmc=">Learning <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(7)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><strong>Introduction</strong></p>
+<p>I am recently learning how to cook but am having trouble coming up with recipes. I am curious by Chat GPT’s ability to come up with more creative but easy recipes.</p>
+<p><strong>Prompt</strong></p>
+<p>I am recently learning how to cook but have been making the same thing since I cannot think of new staple recipes: chicken and pasta. Can you help me come up with some good recipes that are staple dinner items not too complicated but not too simple?</p>
+<p><strong>Response</strong></p>
+<p>Got it — you want to build out a little rotation of staple dinners: not just chicken and pasta, but a handful of easy-to-repeat recipes that are flavorful, not intimidating, and versatile enough to become go-tos. I’ll break this down into categories with examples you can pick from.</p>
+<ol type="1">
+<li>Proteins Beyond Chicken</li>
+</ol>
+<p>Salmon with Lemon &amp; Dill (Sheet Pan Style) Season salmon with olive oil, lemon, salt, and dill. Roast on a sheet pan alongside asparagus or broccoli for 15 minutes.</p>
+<p>Beef Stir-Fry Thinly slice beef, sauté with garlic, ginger, soy sauce, and mixed veggies. Serve over rice or noodles.</p>
+<p>Turkey or Beef Chili Brown ground turkey or beef, add canned beans, tomatoes, chili powder, and simmer. Tastes better the next day too.</p>
+<ol start="2" type="1">
+<li>Vegetarian Staples</li>
+</ol>
+<p>Shakshuka (Eggs in Tomato Sauce) Sauté onions, peppers, and garlic, add canned tomatoes + spices, simmer, then crack eggs into the sauce and cook until set.</p>
+<p>Lentil Soup Sauté onion, carrot, celery, add garlic, lentils, broth, and spices. Finish with lemon juice.</p>
+<p>Vegetable Curry Simmer chickpeas or lentils with coconut milk, curry paste/powder, and veggies. Serve with rice or naan.</p>
+<ol start="3" type="1">
+<li>One-Pot or Sheet Pan Dinners</li>
+</ol>
+<p>Shrimp Fried Rice Use leftover rice, scramble in an egg, toss in shrimp, frozen peas, soy sauce, and sesame oil.</p>
+<p>Sausage &amp; Veggie Sheet Pan Bake Slice chicken sausage, potatoes, and peppers, drizzle with olive oil and spices, and roast until golden.</p>
+<p>Risotto (Easy Style) Arborio rice cooked slowly with broth, onions, and parmesan. Can add mushrooms or shrimp for variety.</p>
+<ol start="4" type="1">
+<li>Lighter Options</li>
+</ol>
+<p>Greek Bowls Base of rice or quinoa, topped with grilled chicken/lamb, cucumber, tomato, red onion, and tzatziki.</p>
+<p>Stuffed Sweet Potatoes Roast sweet potatoes, then stuff with black beans, avocado, and salsa (Tex-Mex style) or spinach &amp; feta (Mediterranean).</p>
+<p>Salmon or Tuna Poke Bowl Rice, cubed raw (or seared) fish, soy-sesame dressing, avocado, and cucumber.</p>
+<ol start="5" type="1">
+<li>“Upgrade Your Pasta”</li>
+</ol>
+<p>Since you’re already doing chicken + pasta, here are a few twists:</p>
+<p>Cacio e Pepe (buttery, peppery cheese pasta—3 ingredients, feels fancy).</p>
+<p>Bolognese (ground beef/turkey slow cooked with tomato and onion).</p>
+<p>Pasta Primavera (lots of sautéed seasonal veggies, olive oil, garlic, parmesan).</p>
+<p>👉 Here’s a tip: pick 5 recipes across these categories and put them on rotation for the next month. Once they feel easy, swap in new ones so you always have variety without needing to think too hard.</p>
+<p>Would you like me to make you a sample 1-week dinner plan with shopping list (based on these staples), so it’s plug-and-play?</p>
+<p>I then responded yes and requested the 1 week dinner plan to try out.</p>
+<p><strong>Response 2</strong></p>
+<p>Perfect! I’ll give you a 1-week dinner plan that mixes proteins, veggies, and grains so it feels balanced — and I’ll include a shopping list at the end so you don’t have to think twice.</p>
+<p>🗓️ 1-Week Dinner Plan Day 1 – Monday</p>
+<p>Salmon with Lemon &amp; Dill (Sheet Pan)</p>
+<p>Salmon fillets, lemon, dill, olive oil.</p>
+<p>Roast with asparagus + baby potatoes.</p>
+<p>Day 2 – Tuesday</p>
+<p>Turkey Chili</p>
+<p>Ground turkey, canned beans, tomatoes, onion, chili powder.</p>
+<p>Serve with rice, tortilla chips, or a dollop of Greek yogurt.</p>
+<p>Day 3 – Wednesday</p>
+<p>Shakshuka (Eggs in Tomato Sauce)</p>
+<p>Peppers, onion, garlic, canned tomatoes, paprika, cumin.</p>
+<p>Crack eggs on top, simmer until cooked.</p>
+<p>Serve with crusty bread or pita.</p>
+<p>Day 4 – Thursday</p>
+<p>Shrimp Fried Rice</p>
+<p>Leftover rice (best if cold), shrimp, egg, frozen peas, soy sauce, sesame oil.</p>
+<p>Quick stir-fry in one pan.</p>
+<p>Day 5 – Friday</p>
+<p>Greek Bowls</p>
+<p>Quinoa or rice base, grilled chicken, cucumber, tomato, red onion.</p>
+<p>Topped with tzatziki or hummus.</p>
+<p>Day 6 – Saturday</p>
+<p>Vegetable Curry</p>
+<p>Chickpeas or lentils, coconut milk, curry paste/powder.</p>
+<p>Add spinach, carrots, or cauliflower.</p>
+<p>Serve with rice or naan.</p>
+<p>Day 7 – Sunday</p>
+<p>Sausage &amp; Veggie Sheet Pan Bake</p>
+<p>Chicken sausage, bell peppers, onions, zucchini, potatoes.</p>
+<p>Toss with olive oil + Italian herbs, roast until golden.</p>
+<p>🛒 Shopping List Proteins</p>
+<p>Salmon fillets (2–3)</p>
+<p>Ground turkey (1 lb)</p>
+<p>Shrimp (1 lb, peeled &amp; deveined)</p>
+<p>Chicken breast (2–3)</p>
+<p>Chicken sausage (4 links)</p>
+<p>Eggs (1 dozen)</p>
+<p>Canned/Dry</p>
+<p>Canned chickpeas (2)</p>
+<p>Lentils (dry or canned, 1 pack)</p>
+<p>Canned diced tomatoes (3)</p>
+<p>Tomato paste (1 small can)</p>
+<p>Kidney or black beans (2 cans)</p>
+<p>Rice (jasmine or basmati, 2 cups)</p>
+<p>Quinoa (1 cup)</p>
+<p>Vegetables</p>
+<p>Bell peppers (4)</p>
+<p>Onion (2 yellow, 1 red)</p>
+<p>Garlic (1 bulb)</p>
+<p>Asparagus (1 bunch)</p>
+<p>Baby potatoes (1 bag)</p>
+<p>Zucchini (2)</p>
+<p>Carrots (3–4)</p>
+<p>Spinach (1 bag)</p>
+<p>Cauliflower (optional for curry)</p>
+<p>Pantry/Fridge Extras</p>
+<p>Olive oil</p>
+<p>Soy sauce</p>
+<p>Sesame oil</p>
+<p>Curry powder or paste</p>
+<p>Chili powder</p>
+<p>Paprika, cumin, oregano, dill (dried or fresh)</p>
+<p>Greek yogurt or tzatziki</p>
+<p>Naan or pita (optional)</p>
+<p>Toppings/Flavor</p>
+<p>Lemon (2)</p>
+<p>Fresh dill (optional, can sub dried)</p>
+<p>Feta cheese (optional, for Greek bowls)</p>
+<p>✅ With this list, you’ll have enough to cover all 7 meals (with some leftovers for lunch too). ✅ Most of these recipes take 30–40 minutes max, some even less. ✅ You can mix and match — e.g., swap chicken into the curry or use the chili beans in a salad.</p>
+<p>Do you want me to also give you a meal-prep flow (like what to prep on Sunday to make weekdays even faster), or do you prefer to cook everything fresh each night?</p>
+<p><strong>Conclusion</strong></p>
+<p>I think Chat GPT did a pretty good job of coming up with beginner recipes. I think there could have been more specifics and it was a bit general with instructions; however, I did find this useful and although I did not follow the full one week plan I made a few of the recipes and it was great.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1761955200000" data-listing-file-modified-sort="1759875795555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="794">
-<div class="thumbnail"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">How Well Can Chat GPT Ac as a Doctor?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<p>Asking GPT for treatment tips and a treatment plan for stomach bug</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
-<div class="thumbnail"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">Testing Chat GPT Book Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<p>Can Chat GPT help me find a new good book to read?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="595">
-<div class="thumbnail"><a href="./posts/005_post/History_Checker.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/005_post/History_Checker.html" class="no-external">GPT &amp; History</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/005_post/History_Checker.html" class="no-external">
-<p>GPT Trustworthiness on Recounting History</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/005_post/History_Checker.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="887">
-<div class="thumbnail"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">Beginner Recipes</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<p>Chat GPT Recipe Abilities</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="790">
-<div class="thumbnail"><a href="./posts/003_post/Daily_News.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_post/Daily_News.html" class="no-external">Daily News</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/003_post/Daily_News.html" class="no-external">
-<p>Chat GPT Daily News Overview</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/003_post/Daily_News.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1204">
-<div class="thumbnail"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">Movie Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<p>How Chat GPT Can Cater Movie Recommentations</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760140800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<div class="thumbnail"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">Cocktail Recipe</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<p>Can Chat GPT Come Up With a Unique Dinner Party Cocktaiil</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<div class="listing-date">
-Oct 11, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

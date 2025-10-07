@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Emma">
+<meta name="dcterms.date" content="2025-10-12">
+<meta name="description" content="How Chat GPT Can Cater Movie Recommentations">
 
-<title>Emma’s Blog</title>
+<title>Movie Recommendations – Emma’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0b37c64f34216b628666a8dac638b53b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,79 +71,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Emma’s Blog</span>
     </a>
   </div>
@@ -153,7 +96,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -171,266 +114,132 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Emma’s Blog</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Movie Recommendations</h1>
+                  <div>
+        <div class="description">
+          How Chat GPT Can Cater Movie Recommentations
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">LLMs</div>
+                <div class="quarto-category">Learning</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Emma </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 12, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TGVhcm5pbmc=">Learning <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TExNcw==">LLMs <span class="quarto-category-count">(7)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p><strong>Introduction</strong></p>
+<p>As someone who loves rewatching movies or finding movies similar to ones I have seen before and loved, I wanted to see how chat gpt could cater movie recommendations based on knowing my specific music taste and what movies I liked before and why. For example, I don’t particularly love certain kinds of horror movies, but do enjoy psychological thrillers - like the movie Se7en but not unlike the movie Sinister. I will be using this example to see the movies Chat GPT gives me and why based on information. There are some movies I have seen and similarly liked and want to see if given this information they will be included in the suggested watch list I am asking for.</p>
+<p><strong>Prompt</strong></p>
+<p>I am interested in finding new movies to watch. I only like some horror movies, specifically the ones that are more so psychological thrillers and not paranormal jump scare based movies. for example, I loved the movie Se7en but did not like the movie Sinister. Can you help me find more psychological thrillers / horror movies based on this information?</p>
+<p><strong>Chat GPT Response</strong></p>
+<p>Absolutely! Since you liked Se7en (a slow-burn psychological thriller with dark, grounded crime elements) and disliked Sinister (a paranormal jump-scare horror), it sounds like you prefer:</p>
+<p>Psychological tension over supernatural scares</p>
+<p>Realistic human villains over ghosts/demons</p>
+<p>Atmospheric dread and mind games over loud startles or gore</p>
+<p>Here’s a list of movies that align with those preferences:</p>
+<p>🧠 Psychological Thrillers (Dark, Suspenseful, Grounded)</p>
+<p>Zodiac (2007) — From the same director as Se7en. A slow, unsettling hunt for the Zodiac Killer with a creeping sense of obsession and paranoia.</p>
+<p>Prisoners (2013) — A tense, morally complex thriller about two missing girls and the desperate hunt to find them.</p>
+<p>Gone Girl (2014) — A sharp psychological mystery about a missing wife and the media circus that follows.</p>
+<p>Nightcrawler (2014) — An unsettling character study about a morally void crime journalist chasing shocking footage.</p>
+<p>The Girl with the Dragon Tattoo (2011) — A dark, stylish investigation of a decades-old murder with twisted family secrets.</p>
+<p>🪞 Psychological Horror (Mind Games, Disturbing, Not Paranormal)</p>
+<p>Black Swan (2010) — A descent into obsession and psychosis set in the world of ballet; deeply unsettling and surreal.</p>
+<p>The Babadook (2014) — Although it has a “monster,” it’s really a metaphor for grief and depression; psychological more than paranormal.</p>
+<p>The Others (2001) — Minimal jump scares, mostly eerie atmosphere and psychological tension.</p>
+<p>The Machinist (2004) — A haunting portrayal of insomnia and guilt driving a man to the edge of sanity.</p>
+<p>Jacob’s Ladder (1990) — Disorienting and disturbing exploration of trauma and reality distortion.</p>
+<p>🩸 Crime Thrillers with Psychological Depth</p>
+<p>Silence of the Lambs (1991) — A psychological cat-and-mouse between an FBI trainee and a brilliant but terrifying killer.</p>
+<p>No Country for Old Men (2007) — A tense and philosophical thriller about fate, morality, and a relentless killer.</p>
+<p>Mystic River (2003) — A dark, brooding drama about childhood trauma and its repercussions in adulthood.</p>
+<p><strong>Additional Prompt</strong></p>
+<p>For more information, a movie I liked as much as Se7en was Shutter Island, please give me another list based on that additional information</p>
+<p><strong>Chat GPT Response</strong></p>
+<p>Absolutely! Since you liked Se7en (a slow-burn psychological thriller with dark, grounded crime elements) and disliked Sinister (a paranormal jump-scare horror), it sounds like you prefer:</p>
+<p>Psychological tension over supernatural scares</p>
+<p>Realistic human villains over ghosts/demons</p>
+<p>Atmospheric dread and mind games over loud startles or gore</p>
+<p>Here’s a list of movies that align with those preferences:</p>
+<p>🧠 Psychological Thrillers (Dark, Suspenseful, Grounded)</p>
+<p>Zodiac (2007) — From the same director as Se7en. A slow, unsettling hunt for the Zodiac Killer with a creeping sense of obsession and paranoia.</p>
+<p>Prisoners (2013) — A tense, morally complex thriller about two missing girls and the desperate hunt to find them.</p>
+<p>Gone Girl (2014) — A sharp psychological mystery about a missing wife and the media circus that follows.</p>
+<p>Nightcrawler (2014) — An unsettling character study about a morally void crime journalist chasing shocking footage.</p>
+<p>The Girl with the Dragon Tattoo (2011) — A dark, stylish investigation of a decades-old murder with twisted family secrets.</p>
+<p>🪞 Psychological Horror (Mind Games, Disturbing, Not Paranormal)</p>
+<p>Black Swan (2010) — A descent into obsession and psychosis set in the world of ballet; deeply unsettling and surreal.</p>
+<p>The Babadook (2014) — Although it has a “monster,” it’s really a metaphor for grief and depression; psychological more than paranormal.</p>
+<p>The Others (2001) — Minimal jump scares, mostly eerie atmosphere and psychological tension.</p>
+<p>The Machinist (2004) — A haunting portrayal of insomnia and guilt driving a man to the edge of sanity.</p>
+<p>Jacob’s Ladder (1990) — Disorienting and disturbing exploration of trauma and reality distortion.</p>
+<p>🩸 Crime Thrillers with Psychological Depth</p>
+<p>Silence of the Lambs (1991) — A psychological cat-and-mouse between an FBI trainee and a brilliant but terrifying killer.</p>
+<p>No Country for Old Men (2007) — A tense and philosophical thriller about fate, morality, and a relentless killer.</p>
+<p>Mystic River (2003) — A dark, brooding drama about childhood trauma and its repercussions in adulthood.</p>
+<p>If you want, I can also make a short watchlist of lesser-known hidden gems in this same genre (movies you might not have heard of but are very much like Se7en in tone).</p>
+<p>Would you like me to do that next?</p>
+<p>You said: For more information, a movie I liked as much as Se7en was Shutter Island, please give me another list based on that additional information ChatGPT said:</p>
+<p>Perfect — that detail is super helpful.</p>
+<p>Since you loved Shutter Island and Se7en, it’s clear your taste leans toward:</p>
+<p>Psychological thrillers with mystery, twists, and unreliable perception</p>
+<p>Dark tone, emotional depth, and strong character arcs</p>
+<p>Grounded (realistic) settings rather than supernatural or jump-scare horror</p>
+<p>So instead of supernatural horror, you want mind-bending psychological thrillers — the kind that blur reality and drive characters toward obsession or madness.</p>
+<p>🧠 Reality-Bending Psychological Thrillers</p>
+<p>The Sixth Sense (1999) — A slow, emotional thriller about perception and grief, with a famous twist. (Less “scary” than Sinister; much more psychological.)</p>
+<p>The Prestige (2006) — Two rival magicians in a dark, twisting battle of obsession and deception. Brilliant and suspenseful.</p>
+<p>Fight Club (1999) — From the same director as Se7en; explores identity, madness, and self-destruction with a major twist.</p>
+<p>Memento (2000) — A disorienting thriller told in reverse about a man with short-term memory loss trying to solve a murder.</p>
+<p>Oldboy (2003) — A dark, gripping Korean thriller about vengeance, imprisonment, and shocking secrets.</p>
+<p>🕵️‍♀️ Dark Mystery / Detective Thrillers</p>
+<p>Gone Girl (2014) — A missing person case spirals into a psychological battle of manipulation and deceit.</p>
+<p>Zodiac (2007) — Slow-burning and obsessive; follows journalists and police chasing the elusive Zodiac Killer.</p>
+<p>Prisoners (2013) — A gripping and disturbing thriller about a desperate father hunting for his missing daughter.</p>
+<p>The Girl with the Dragon Tattoo (2011) — Dark, icy tone and a deeply layered murder mystery investigation.</p>
+<p>🪞 Psychological Descent into Madness</p>
+<p>Black Swan (2010) — A haunting portrait of obsession, perfectionism, and mental unraveling.</p>
+<p>The Machinist (2004) — Stark and unsettling; follows a man consumed by guilt and insomnia until he loses his grip on reality.</p>
+<p>Enemy (2013) — Surreal and disturbing, about a man who discovers an exact double of himself; very Shutter Island-like in tone.</p>
+<p><strong>Conclusion</strong></p>
+<p>After looking through the responses (and having seen many of the ones listed and liking them) so overall do feel like AI did a good job capturing the essence of what I liked about the certain films I listed. I have not watched all of them, so will be later watching the ones I have not seen yet and continue to review and return.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1761955200000" data-listing-file-modified-sort="1759875795555" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="794">
-<div class="thumbnail"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">How Well Can Chat GPT Ac as a Doctor?</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<p>Asking GPT for treatment tips and a treatment plan for stomach bug</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/007_post/Doctor_GPT.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760745600000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642">
-<div class="thumbnail"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">Testing Chat GPT Book Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<p>Can Chat GPT help me find a new good book to read?</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/001_post/Book_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 18, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="595">
-<div class="thumbnail"><a href="./posts/005_post/History_Checker.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/005_post/History_Checker.html" class="no-external">GPT &amp; History</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/005_post/History_Checker.html" class="no-external">
-<p>GPT Trustworthiness on Recounting History</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/005_post/History_Checker.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760572800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="887">
-<div class="thumbnail"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">Beginner Recipes</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<p>Chat GPT Recipe Abilities</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/004_post/Beginner_Recipes.html" class="no-external">
-<div class="listing-date">
-Oct 16, 2025
-</div>
-<div class="listing-author">
-Emma Valle
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="790">
-<div class="thumbnail"><a href="./posts/003_post/Daily_News.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/003_post/Daily_News.html" class="no-external">Daily News</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/003_post/Daily_News.html" class="no-external">
-<p>Chat GPT Daily News Overview</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/003_post/Daily_News.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1204">
-<div class="thumbnail"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">Movie Recommendations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<p>How Chat GPT Can Cater Movie Recommentations</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/006_post/Movie_Recommendations.html" class="no-external">
-<div class="listing-date">
-Oct 12, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TExNcyUyQ0xlYXJuaW5n" data-listing-date-sort="1760140800000" data-listing-file-modified-sort="1759875795554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="462">
-<div class="thumbnail"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">Cocktail Recipe</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TExNcw=='); return false;">LLMs</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm5pbmc='); return false;">Learning</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<p>Can Chat GPT Come Up With a Unique Dinner Party Cocktaiil</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/002_post/Cocktail_Recipe.html" class="no-external">
-<div class="listing-date">
-Oct 11, 2025
-</div>
-<div class="listing-author">
-Emma
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
