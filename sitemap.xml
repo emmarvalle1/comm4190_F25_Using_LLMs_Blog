@@ -2,50 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/about.html</loc>
-    <lastmod>2025-12-13T17:49:29.586Z</lastmod>
+    <lastmod>2025-12-14T02:25:43.546Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/014_post/Slang_Idioms.html</loc>
+    <lastmod>2025-12-14T02:25:43.550Z</lastmod>
   </url>
   <url>
     <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/001_post/Book_Recommendations.html</loc>
-    <lastmod>2025-12-13T17:49:29.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/007_post/Doctor_GPT.html</loc>
-    <lastmod>2025-12-13T17:49:29.588Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_post/Movie_Recommendations.html</loc>
-    <lastmod>2025-12-13T17:49:29.588Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_post/Cocktail_Recipe.html</loc>
-    <lastmod>2025-12-13T17:49:29.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_post/History_Checker.html</loc>
-    <lastmod>2025-12-13T17:49:29.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
-    <lastmod>2025-12-13T17:49:29.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/008_post/LLM_tone.html</loc>
-    <lastmod>2025-12-13T17:49:29.588Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_post/Daily_News.html</loc>
-    <lastmod>2025-12-13T17:49:29.587Z</lastmod>
-  </url>
-  <url>
-    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/010_post/Untitled.html</loc>
-    <lastmod>2025-12-13T17:49:29.589Z</lastmod>
+    <lastmod>2025-12-14T02:25:43.547Z</lastmod>
   </url>
   <url>
     <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/009_post/Untitled.html</loc>
-    <lastmod>2025-12-13T17:49:29.588Z</lastmod>
+    <lastmod>2025-12-14T02:25:43.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/011_post/Audience_Awareness.html</loc>
+    <lastmod>2025-12-14T02:25:43.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/013_post/Irony_Sarcasm.html</loc>
+    <lastmod>2025-12-14T02:25:43.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/003_post/Daily_News.html</loc>
+    <lastmod>2025-12-14T02:25:43.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/008_post/LLM_tone.html</loc>
+    <lastmod>2025-12-14T02:25:43.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/index.html</loc>
+    <lastmod>2025-12-14T02:25:43.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/005_post/History_Checker.html</loc>
+    <lastmod>2025-12-14T02:25:43.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/002_post/Cocktail_Recipe.html</loc>
+    <lastmod>2025-12-14T02:25:43.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/006_post/Movie_Recommendations.html</loc>
+    <lastmod>2025-12-14T02:25:43.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/010_post/GPT_Morals.html</loc>
+    <lastmod>2025-12-14T02:25:43.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/007_post/Doctor_GPT.html</loc>
+    <lastmod>2025-12-14T02:25:43.548Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/012_post/Emotional_Framing.html</loc>
+    <lastmod>2025-12-14T02:25:43.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/015_post/Manipulation.html</loc>
+    <lastmod>2025-12-14T02:25:43.551Z</lastmod>
   </url>
   <url>
     <loc>https://emmarvalle1.github.io/comm4190_F25_Using_LLMs_Blog/posts/004_post/Beginner_Recipes.html</loc>
-    <lastmod>2025-12-13T17:49:29.587Z</lastmod>
+    <lastmod>2025-12-14T02:25:43.547Z</lastmod>
   </url>
 </urlset>

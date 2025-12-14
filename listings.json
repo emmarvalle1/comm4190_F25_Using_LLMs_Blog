@@ -2,8 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/010_post/Untitled.html",
+      "/posts/010_post/GPT_Morals.html",
       "/posts/009_post/Untitled.html",
+      "/posts/011_post/Audience_Awareness.html",
+      "/posts/012_post/Emotional_Framing.html",
+      "/posts/014_post/Slang_Idioms.html",
+      "/posts/015_post/Manipulation.html",
+      "/posts/013_post/Irony_Sarcasm.html",
       "/posts/008_post/LLM_tone.html",
       "/posts/001_post/Book_Recommendations.html",
       "/posts/005_post/History_Checker.html",
