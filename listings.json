@@ -2,8 +2,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/010_post/GPT_Morals.html",
-      "/posts/009_post/Untitled.html",
       "/posts/27_post/Brevity.html",
       "/posts/28_post/post_8.html",
       "/posts/25_post/doctor_gpt.html",
@@ -11,6 +9,7 @@
       "/posts/23_post/Voices.html",
       "/posts/011_post/Audience_Awareness.html",
       "/posts/012_post/Emotional_Framing.html",
+      "/posts/010_post/GPT_Morals.html",
       "/posts/014_post/Slang_Idioms.html",
       "/posts/018_post/post_3.html",
       "/posts/016_post/Book_Post1.html",
@@ -20,6 +19,7 @@
       "/posts/017_post/post2.html",
       "/posts/21_post/post_6.html",
       "/posts/22_post/post_7.html",
+      "/posts/009_post/Untitled.html",
       "/posts/20_post/post_5.html",
       "/posts/24_post/no_context.html",
       "/posts/008_post/LLM_tone.html",
